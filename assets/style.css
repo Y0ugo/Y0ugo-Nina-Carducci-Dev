@@ -44,7 +44,7 @@ body {
 
 #about {
 	display: flex;
-	background-color: #F6D2B8;
+	background-color: #F0A05A; /* Fond légèrement plus foncé pour améliorer le contraste */
 	padding-inline: 100px;
 	padding-block: 100px;
 	position: relative;
@@ -69,7 +69,6 @@ body {
 
 .picture img {
 	width: 100%;
-
 }
 #about-me {
 	flex: 2
@@ -84,6 +83,7 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	color: #333; /* Texte un peu plus foncé pour améliorer le contraste */
 }
 #about-me p {
 	width: 80%;
@@ -117,8 +117,8 @@ body {
 	content: "";
 	display: block;
 	padding-bottom: 100%;
-
 }
+
 .gallery-item {
 	position: absolute;
 	width: 100%;
@@ -157,7 +157,7 @@ body {
 
 #services {
 	margin: auto;
-	background-color: #A8D5D8 ;
+	background-color: #9AC5D3; /* Fond légèrement plus foncé pour améliorer le contraste */
 	position: relative;
 }
 #services .container::before{
@@ -192,7 +192,7 @@ body {
 
 #contact {
 	margin: auto;
-	background-color: #D8D3A8 ;
+	background-color: #A8A37F; /* Fond légèrement plus foncé pour améliorer le contraste */
 	position: relative;
 	padding-inline: 100px;
 	padding-block: 100px;
@@ -353,4 +353,3 @@ input[type="submit"] {
 		width: 80%;
 	}
 }
-
