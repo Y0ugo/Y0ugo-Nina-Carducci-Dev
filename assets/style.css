@@ -105,18 +105,21 @@ body {
     color: #000; /* Texte en noir */
     border-radius: 0;
     transition: background-color 0.3s ease-in-out;
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .nav-pills .nav-link.active {
-    background-color: transparent !important; /* Supprime la couleur du bouton actif */
-    color: #000 !important; /* Remet le texte en noir */
+    background-color: #BEB45A; /* Fond jaune pour l'élément actif */
+    color: #fff; /* Texte en blanc pour l'élément actif */
 }
 
 .nav-pills .nav-link:hover {
     background-color: #BEB45A;
     color: #fff;
 }
+
+
+
 
 .item-column {
 	position: relative;
